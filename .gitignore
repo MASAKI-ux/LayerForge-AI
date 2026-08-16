@@ -1,0 +1,68 @@
+# dependencies
+/node_modules
+frontend/node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Next.js
+/.next/
+/out/
+frontend/.next/
+
+# build
+/build
+
+# backend generated files
+backend/uploads/
+backend/test_results/
+backend/reports/
+backend/logs/
+backend/cache/
+
+# database
+backend/database/*.db
+backend/database/*.db-*
+
+# backup
+_backup_git_rescue/
+*.bundle
+*.zip
+*.sha256
+
+# misc
+.DS_Store
+*.pem
+*.log
+
+# env
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example
+!backend/.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# Project Health Checker
+project_status.json
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
